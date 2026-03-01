@@ -14,6 +14,7 @@ const Realeses = () => {
         <Link
           href="https://on.soundcloud.com/0EojhB5dPH1iau60cw"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#B35A44] text-white px-8 py-3 rounded-full font-bold uppercase tracking-widest hover:scale-105 transition-transform w-fit text-xs md:text-sm lg:text-base"
         >
           Ouça Agora

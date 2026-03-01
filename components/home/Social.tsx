@@ -15,6 +15,8 @@ const Social = () => {
             href={
               "https://www.instagram.com/mvriloernani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             }
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center gap-3 text-base font-mono hover:scale-105 opacity-80 hover:opacity-100 transition-all duration-500"
           >
             <Image
@@ -28,7 +30,9 @@ const Social = () => {
           </Link>
           {/*Youtube */}
           <Link
-            href={""}
+            href={"https://youtube.com/@dpatos?si=U2XpA40D9yxPwmIP"}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center gap-3 text-base font-mono hover:scale-105 opacity-80 hover:opacity-100 transition-all duration-500"
           >
             {" "}
@@ -43,7 +47,11 @@ const Social = () => {
           </Link>
           {/*TikTok */}
           <Link
-            href={""}
+            href={
+              "https://www.tiktok.com/@murinanii?is_from_webapp=1&sender_device=pc"
+            }
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center gap-3 text-base font-mono hover:scale-105 opacity-80 hover:opacity-100 transition-all duration-500"
           >
             <Image
@@ -57,7 +65,9 @@ const Social = () => {
           </Link>
           {/*SoundCloud */}
           <Link
-            href={""}
+            href={"https://on.soundcloud.com/n7ZVSeD7JXHw8st96p"}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center gap-3 text-base font-mono hover:scale-105 opacity-80 hover:opacity-100 transition-all duration-500"
           >
             <Image
@@ -73,6 +83,8 @@ const Social = () => {
         {/* Botão para o último lançamento */}
         <Link
           href={"https://on.soundcloud.com/OgBb4pcEQ2yB76fwhU"}
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-mono uppercase tracking-widest italic bg-[#B35A44] text-white px-4 py-2 rounded-full hover:scale-105 transition-transform text-xs md:text-sm lg:text-base"
         >
           Confira o último lançamento!
