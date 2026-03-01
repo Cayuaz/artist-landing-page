@@ -33,14 +33,18 @@ const Realeses = () => {
           <Image
             src="/siames.jpg"
             alt="Capa do álbum Siamês"
-            className="w-30 h-auto rounded-lg object-cover border border-white/5 transition-colors duration-500 hover:border-[#B35A44]/40"
-            width={400}
-            height={400}
+            className="w-30 h-auto rounded-lg object-cover"
+            width={100}
+            height={100}
           />
           <div>
             <span className="text-xs uppercase tracking-widest text-[#B35A44] font-black">
               Novo Lançamento
             </span>
+
+            <p className="text-xs text-[#F3F0E7]/40 mb-8 uppercase tracking-widest">
+              Full Album • 2026
+            </p>
 
             <h3
               className="text-2xl text-[#F3F0E7] my-2 tracking-tighter italic
@@ -51,13 +55,10 @@ const Realeses = () => {
           </div>
         </div>
 
-        {/* <p className="text-xs text-[#F3F0E7]/40 mb-8 uppercase tracking-widest">
-          Full Album • 2026
-        </p> */}
-
         <Link
           href="https://on.soundcloud.com/18FrVpDvIqLdRe4zdg"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center justify-center gap-3 bg-[#B35A44] text-white px-6 py-4 rounded-xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-[#B35A44]/90 transition-all active:scale-95 w-full"
         >
           <CirclePlay size={18} strokeWidth={2.5} />
