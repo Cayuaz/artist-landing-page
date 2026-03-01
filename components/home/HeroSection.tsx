@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Musics from "./Musics";
+import Realeses from "./Releases";
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col md:flex-row gap-20 md:gap-10 w-5/6">
-      <Musics />
+      <Realeses />
       {/* Imagem do artista */}
       <Image
         src="/image5.jpg"
