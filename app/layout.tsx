@@ -4,10 +4,8 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 
 export const metadata: Metadata = {
-  title: {
-    template: "%s | Murinani",
-    default: "Murinani | Site Oficial",
-  },
+  metadataBase: new URL("https://murinani.vercel.app/"),
+  title: "Murinani | Site Oficial",
   description:
     "Explore o universo musical de Murinani. Ouça os últimos lançamentos, singles e acompanhe a trajetória do artista.",
   keywords: [
@@ -26,10 +24,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Murinani | Site Oficial",
     description: "Confira as tracks, lançamentos e a vibe do Murinani.",
-    url: "https://murinani.com.br",
+    url: "https://murinani.vercel.app/",
     images: [
       {
-        url: "/",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Murinani - Music Profile",
