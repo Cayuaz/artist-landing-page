@@ -2,6 +2,7 @@ import About from "@/components/home/About";
 import HeroSection from "@/components/home/HeroSection";
 import Knuckles from "@/components/home/Knuckles";
 import Musics from "@/components/home/Musics";
+import Social from "@/components/home/Social";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Knuckles />
       <About />
       <Musics />
+      <Social />
     </div>
   );
 }

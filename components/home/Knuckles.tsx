@@ -39,7 +39,7 @@ const Knuckles = () => {
           <Image
             src="/image3.jpg"
             alt="Murinani Logo"
-            className="w-5/6 mx-auto md:w-80 hover:shadow-[0_0_10px_#1a1b1e] transition-all duration-500 lg:w-100 h-auto rounded-lg object-cover order-1 md:order-0  "
+            className="w-5/6 md:w-80 mx-auto  hover:shadow-[0_0_10px_#1a1b1e] transition-all duration-500 lg:w-100 h-auto rounded-lg object-cover order-1 md:order-0  "
             width={650}
             height={750}
           />
