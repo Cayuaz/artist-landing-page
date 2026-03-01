@@ -2,7 +2,7 @@ import Music from "./Music";
 
 const Musics = () => {
   return (
-    <div className="flex flex-col gap-5 w-5/6">
+    <div id="music" className="flex flex-col gap-5 w-5/6">
       <h2 className="text-white text-2xl font-bold mb-4 uppercase tracking-wider italic text-center">
         Músicas de destaque
       </h2>

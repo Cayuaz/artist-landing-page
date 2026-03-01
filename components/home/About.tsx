@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="flex flex-col gap-5 w-5/6">
+    <div id="about" className="flex flex-col gap-5 w-5/6">
       <h2 className=" text-2xl font-bold uppercase tracking-wider italic text-center text-[#B35A44]">
         Sobre o artista
       </h2>
