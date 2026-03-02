@@ -47,9 +47,11 @@ Toda a interface foi desenhada do zero para atuar como uma tradução visual da 
 
 ## Preview
 
-Você pode conferir o projeto em produção acessando: **[murinani.vercel.app](https://murinani.vercel.app/)**
+![Home](./github/assets/home.png)
 
-> O design foi cuidadosamente elaborado para funcionar perfeitamente em dispositivos móveis, tablets e desktops.
+&nbsp;
+
+![Músicas](./github/assets/musics.png)
 
 ---
 
