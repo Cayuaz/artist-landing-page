@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Social = () => {
   return (
-    <div id="contact" className="w-full md:w-5/6">
+    <div id="contact" className="w-full md:w-5/6 px-15 md:px-0">
       <h2 className="text-2xl font-bold uppercase tracking-wider italic text-center text-[#B35A44]">
         Redes Sociais
       </h2>
